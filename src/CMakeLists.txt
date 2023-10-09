@@ -39,6 +39,8 @@ set(PROJECT_SOURCES
     entry.h
     group.c
     group.h
+    library_state_machine.c
+    library_state_machine.h
     organizational_unit.c
     organizational_unit.h
     request_queue.h
