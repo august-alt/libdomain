@@ -47,6 +47,8 @@ set(PROJECT_SOURCES
     request_queue.c
     schema.c
     schema.h
+    schema_parser.c
+    schema_p.h
     user.c
     user.h
 )
