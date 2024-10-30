@@ -361,3 +361,22 @@ ldap_schema_ready(struct ldap_connection_ctx_t* connection)
         return true;
     }
 }
+
+/*!
+ * \brief ldap_schema_validate_entry     Validates entry agains set of object classes.
+ * \param[in] schema                     Current schema we working with.
+ * \param[in] entry                      Entry to validate.
+ * \param[in] objectclass_names          Names of object classes to validate against.
+ * \return
+ *        - false - if entry is is not valid.
+ *        - true - entry is is valid.
+ */
+bool
+ldap_schema_validate_entry(ldap_schema_t *schema, ld_entry_t *entry, char **objectclass_names)
+{
+    (void)(schema);
+    (void)(entry);
+    (void)(objectclass_names);
+
+    return false;
+}
